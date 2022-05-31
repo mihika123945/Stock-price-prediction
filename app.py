@@ -84,7 +84,7 @@ scaler = scaler.scale_
 
 scale_factor = 1/scaler[0]
 y_predicted = y_predicted * scale_factor
-y_test = y_test * scale_factor 
+y_test = y_test * scale_factor
 #final graph
 st.subheader('Prediction vs Original')
 fig2 = plt.figure(figsize=(12,6))
